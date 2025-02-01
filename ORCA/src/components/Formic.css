@@ -1,0 +1,127 @@
+html{
+    background: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sign-up, .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 2em;
+    background-color: rgb(8, 8, 8);
+    border: 1px solid white;
+    border-radius: .5em;
+    width: 400px;
+    min-height: 350px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+section h1{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1em;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section p{
+    font-family: 'Poppins', sans-serif;
+    margin: .5em 0;   
+}
+
+.heading input{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1em;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    align-items: start;
+    margin: .2em 1em 1em 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form div{
+    margin: .3em 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+label{
+    text-align: left;
+    margin: .2em 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    width: 20em;
+}
+
+.form input{
+    background: none;
+    width: 30em;
+    border: none;
+    border-bottom: 3.5px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: .2em 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus {
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    background: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size:  1rem;
+    padding: .5em 5em;
+    margin: 0;
+    border: .1em solid white;
+    border-radius: 500em;
+    transition: all .2s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    border-color: black;
+    background: white;
+    color: black;
+    -webkit-text-stroke: .5px black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ask{
+    color: rgb(171, 171, 171);
+    margin: .5em 0 0 0;
+    font-family: 'Poppins', sans-serif;
+}

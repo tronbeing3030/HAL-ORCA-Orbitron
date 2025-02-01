@@ -1,0 +1,110 @@
+html{
+    background: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+#root{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 2em;
+}
+
+.dash{
+    margin: 0 0 0 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+}
+
+nav{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 4em;
+    width: 100%;
+}
+
+nav div p{
+    margin: 1em 0 0 0;
+}
+
+nav div p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+h1{
+    font-weight: 400;
+    font-size: 15rem;
+    margin: 0;
+    line-height: .8;
+    text-align: center;
+}
+
+.bar{
+    width: 100%;
+    background-color: white;
+    height: 1px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 1.5rem;
+}
+
+.add{
+    margin-left: 1em;
+    color: rgb(113, 113, 113);
+}
+
+.panels{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.panels div{
+    height: 150px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(29, 29, 29);
+    background-color: rgb(14, 14, 14);
+    margin: 0 1em 0 0;
+    border-radius: 1em;
+    font-size: 1.2rem;
+}
+
+Link div p{
+    color: white;
+}
