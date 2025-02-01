@@ -1,11 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # Office Seat Planner
 
 ## 📌 Project Overview
@@ -19,9 +11,9 @@ Office Seat Planner is a **web-based tool** designed to optimize **seat allocati
 
 ## 🛠️ Tech Stack
 - **Front-end**: React.js
-- **Back-end**: Node.js, Express.js
+- **Back-end**: Node.js
 - **Database**: MongoDB
-- **Architecture**: REST API with one-to-one & one-to-many relationships
+- **Architecture**: one-to-one, one-to-many relationships & algorithm for seat and employee allocation 
 
 ## 📜 License
 This project is **open-source** and available under the **MIT License**.
