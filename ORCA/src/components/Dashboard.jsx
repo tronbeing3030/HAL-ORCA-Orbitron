@@ -20,8 +20,8 @@ export const Dashboard = () => {
         </div>
         <div className="panels">
             <div>OFFICE_1</div>
-            <Link to='/form'><div style={{color:'white'}}><p>
-                add
+            <Link to='/form'><div style={{color:'white'}}><p style={{fontSize:'6rem'}}>
+                +
                 </p></div></Link>
         </div>
     </div>
