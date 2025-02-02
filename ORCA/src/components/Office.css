@@ -1,3 +1,45 @@
-h1{
-    font-size: 1rem;
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3em 0;
+}
+
+.top h1{
+    font-size: 4rem;
+}
+
+.below{
+    display: flex;
+}
+
+.seats{
+    display: flex;
+    align-items: end;
+    justify-content: left;
+}
+
+.seats h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0 0 1em .3em;
+    line-height: .8;
+    text-align: left;
+}
+
+.seats p{
+    font-size: 8rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+select{
+    background: black;
+    border: 1px solid rgb(111, 111, 111);
+    padding: .5em;
+    width: 62%;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .3em;
+    margin: 0 0 .5em 0;
 }
