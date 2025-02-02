@@ -42,6 +42,6 @@ For monitoring the power and other resources, can be done using IOT devices and 
 This project is **open-source** and available under the **MIT License**.
 
 ## Acknowledgments
-Special thanks to the **Global Academy of Technology** for supporting this initiative.
+This was a 24hr hackathon project: Hack-A-League, special thanks to the **Global Academy of Technology** for supporting this initiative.
 
 
