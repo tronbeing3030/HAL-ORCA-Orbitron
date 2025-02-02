@@ -1,0 +1,26 @@
+.arr{
+    max-height: 30em;
+    overflow-y: scroll;
+    
+}
+
+.array, .extra{
+    display: flex;
+}
+
+.seat{    
+    width: 32px;
+    height: 30px;
+    border: 1px solid white;
+    margin: 2px;
+    background-color: none;
+    border-radius: .3em;
+}
+  
+.seat.assigned {
+    background-color: white; /* Change this to the desired color */
+  }
+  
+.seat.selected {
+    background-color: #fffc47; /* Change this to the desired color */
+  }
