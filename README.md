@@ -25,7 +25,12 @@ For monitoring the power and other resources, can be done using IOT devices and 
    git clone <repository-url>
    cd <project-directory>
    ```
-2. 
+2. ```bash
+   npm install
+   ```
+3. ```bash
+   npm run dev
+   ```
    
 ## Impact & Benefits
 - **Efficiency:** Reduces real estate costs by optimizing minimal office space.
