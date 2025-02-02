@@ -32,3 +32,14 @@
     font-weight: 500;
     margin: 0;
 }
+
+select{
+    background: black;
+    border: 1px solid rgb(111, 111, 111);
+    padding: .5em;
+    width: 62%;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .3em;
+    margin: 0 0 .5em 0;
+}

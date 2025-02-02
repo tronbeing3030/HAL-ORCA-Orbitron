@@ -32,8 +32,9 @@ export const SeatInfo = ({ seatIndex, employeesDB, onSubmit }) => {
         <>
             <div className="info">
                 <div className="formal">
-                    <label>SEAT ID:</label>
+                    <div className="seat-id"><label>SEAT ID:</label>
                     <input placeholder='##########' value={seatId} onChange={handleSeatIdChange} />
+                    </div>
                     <input type="text" placeholder='Employee Name' value={name} onChange={handleNameChange} />
                     <input type="text" placeholder='Designation' value={designation} onChange={handleDesignationChange} />
                     <button onClick={handleSubmit}>SUBMIT</button>
