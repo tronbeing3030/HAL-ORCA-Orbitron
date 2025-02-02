@@ -13,17 +13,15 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.sign-up, .login{
+.office-details{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-    padding: 1em 2em;
+    padding: 3em 2em 3em 5em;
     background-color: rgb(8, 8, 8);
     border: 1px solid white;
     border-radius: .5em;
-    width: 400px;
-    min-height: 350px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -50,7 +48,7 @@ section p{
 
 .heading input{
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1em;
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -64,8 +62,9 @@ section p{
     flex-direction: column;
     /* width: 100%; */
     align-items: start;
-    margin: .2em 1em 1em 1em;
+    margin: 0 0 1.2em 0;
     font-family: 'Poppins', sans-serif;
+    border: none;
 }
 
 .form div{
@@ -73,6 +72,7 @@ section p{
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
+    border: none;
 }
 
 label{
@@ -84,10 +84,11 @@ label{
 
 .form input{
     background: none;
-    width: 30em;
+    width: 115%;
     border: none;
     border-bottom: 3.5px solid white;
     color: white;
+    font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     padding: .2em 0;
     font-family: 'Poppins', sans-serif;
@@ -103,7 +104,7 @@ button{
     color: white;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-    font-size:  1rem;
+    font-size: 1.5rem;
     padding: .5em 5em;
     margin: 0;
     border: .1em solid white;
@@ -117,11 +118,5 @@ button:hover{
     background: white;
     color: black;
     -webkit-text-stroke: .5px black;
-    font-family: 'Poppins', sans-serif;
-}
-
-.ask{
-    color: rgb(171, 171, 171);
-    margin: .5em 0 0 0;
     font-family: 'Poppins', sans-serif;
 }
