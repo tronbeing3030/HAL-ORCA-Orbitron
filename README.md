@@ -17,7 +17,21 @@ For monitoring the power and other resources, can be done using IOT devices and 
 - **Front-end**: React.js
 - **Back-end**: Node.js
 - **Database**: MongoDB
-- **Architecture**: one-to-one, one-to-many relationships & algorithm for seat and employee allocation 
+- **Architecture**: one-to-one, one-to-many relationships & algorithm for seat and employee allocation
+
+## How to Run
+1. **Clone the Repository**
+   ```bash
+   git clone <repository-url>
+   cd <project-directory>
+   ```
+2. 
+   
+## Impact & Benefits
+- **Efficiency:** Reduces real estate costs by optimizing minimal office space.
+- **Optimization:** Optimizes cost in terms of real-estate and planning clutters.
+- **Employee Satisfaction:** Ensures better work environment through efficient seating.
+- **Monetary Benefits:** Identifies underutilized spaces, reducing rental and utility expenses. 
 
 ## License
 This project is **open-source** and available under the **MIT License**.
